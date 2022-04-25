@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Container } from 'semantic-ui-react';
+import EventDashboard from './Components/EventDashboard';
+import NavBar from './Components/NavBar';
 
 function App() {
   return (
-    <div className="App">
-    herl
+    <div>
+      <NavBar/>
+      <Container>
+      <EventDashboard/>
+      </Container>
     </div>
   );
 }
